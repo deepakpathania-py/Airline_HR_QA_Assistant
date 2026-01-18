@@ -18,4 +18,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://deepakpathania-py:$HF_TOKEN@huggingface.co/spaces/deepakpathania-py/Airline_HR_QA_Assistant main
+        run: git push https://deepakpathania:$HF_TOKEN@huggingface.co/spaces/deepakpathania/Airline_HR_QA_Assistant main
